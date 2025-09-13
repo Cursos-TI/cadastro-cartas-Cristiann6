@@ -6,39 +6,41 @@
 
 int main() {
 
-  char Estado[20];
-  char Codigo[20];
-  char Cidade[20];
-  int Populacão;
+  char Estado[20], Codigo[20], Cidade[20];
+  int Populacao;
   float Area;
   float PIB;
   int Turistico;
 
-  // Área para entrada de dados
-printf("Carta 1:");
 
-printf("Dígite o seu estado; \n");
-scanf("%c, &Estado");
+printf("Carta 1: \n");
 
-printf("Dígite o seu código; \n");
-scanf("%c, &Codigo");
+printf("Dígite o seu estado: \n");
+scanf("%s" , Estado);
 
-printf("Dígite a sua cidade; \n");
-scanf("%c, &Cidade");
+printf("Dígite o seu código: \n");
+scanf("%s" , Codigo);
 
-printf("Dígite a população; \n");
-scanf("%d, &Populacao");
+printf("Dígite a sua cidade: \n");
+scanf("%s" , Cidade);
 
-printf("Dígite a sua área; \n");
-scanf("%e, &Area");
+printf("Dígite a sua população: \n");
+scanf("%d" , &Populacao);
 
-printf("Dígite o seu pib; \n");
-scanf("%f, &PIB");
+printf("Dígite a sua área: \n");
+scanf("%f", &Area);
 
-printf("Dígite o seu ponto turístico; \n");
-scanf("%f, &Turistico");
+printf("Dígite o seu pib: \n");
+scanf("%f", &PIB);
+
+printf("Dígite o seu ponto turístico: \n");
+scanf("%d", &Turistico);
 
   // Área para exibição dos dados da cidade
+printf("estado: %s - código: %s\n", Estado, Codigo);
+printf("cidade: %s - população: %d\n", Cidade, Populacao);
+printf("área: %f - pib: %f\n", Area, PIB);
+printf("número de pontos turisticos: %d", Turistico);
 
 return 0;
 } 
