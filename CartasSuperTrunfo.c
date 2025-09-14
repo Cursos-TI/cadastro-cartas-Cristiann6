@@ -6,18 +6,10 @@
 
 int main() {
 //variaveis da carta 1
-  char Estado[20], Codigo[20], Cidade[20];
-  int Populacao;
-  float Area;
-  float PIB;
-  int Turistico;
+  char Estado[20], Codigo[20], Cidade[20], Estado2[20], Codigo2[20], Cidade2[20];
+  int Populacao, Populacao2, Turistico, Turistico2;
+  float Area, PIB, Area2, PIB2;
 
-  //variaveis da carta 2
-  char Estado2[20], Codigo2[20], Cidade2[20];
-  int Populacao2;
-  float Area2;
-  float PIB2;
-  int Turistico2;
 
 
 printf("Carta 1: \n");
