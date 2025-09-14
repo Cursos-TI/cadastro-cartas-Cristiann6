@@ -15,54 +15,54 @@ int main() {
 printf("Carta 1: \n");
 
 printf("Dígite o seu estado: \n");
-scanf("%s" , Estado);
+scanf(" %s" , Estado);
 
 printf("Dígite o seu código: \n");
-scanf("%s" , Codigo);
+scanf(" %s" , Codigo);
 
 printf("Dígite a sua cidade: \n");
-scanf("%s" , Cidade);
+scanf(" %s" , Cidade);
 
 printf("Dígite a sua população: \n");
 scanf("%d" , &Populacao);
 
 printf("Dígite a sua área: \n");
-scanf("%f", &Area);
+scanf(" %f", &Area);
 
 printf("Dígite o seu pib: \n");
-scanf("%f", &PIB);
+scanf(" %f", &PIB);
 
 printf("Dígite o seu ponto turístico: \n");
-scanf("%d", &Turistico);
+scanf(" %d", &Turistico);
 
 printf("Carta 2: \n");
 
 printf("Dígite o seu estado: \n");
-scanf("%s" , Estado2);
+scanf(" %s" , Estado2);
 
 printf("Dígite o seu código: \n");
-scanf("%s" , Codigo2);
+scanf(" %s" , Codigo2);
 
 printf("Dígite a sua cidade: \n");
-scanf("%s" , Cidade2);
+scanf(" %s" , Cidade2);
 
 printf("Dígite a sua população: \n");
-scanf("%d" , &Populacao2);
+scanf(" %d" , &Populacao2);
 
 printf("Dígite a sua área: \n");
-scanf("%f", &Area2);
+scanf(" %f", &Area2);
 
 printf("Dígite o seu pib: \n");
-scanf("%f", &PIB2);
+scanf(" %f", &PIB2);
 
 printf("Dígite o seu ponto turístico: \n");
-scanf("%d", &Turistico2);
+scanf(" %d", &Turistico2);
 
   // Área para exibição da carta 1
 printf("estado: %s - código: %s\n", Estado, Codigo);
 printf("cidade: %s - população: %d\n", Cidade, Populacao);
 printf("área: %f - pib: %f\n", Area, PIB);
-printf("número de pontos turisticos: %d", Turistico);
+printf("número de pontos turisticos: %d\n", Turistico);
 
 // Área para exibição da carta 2
 printf("estado: %s - código: %s\n", Estado2, Codigo2);
